@@ -11,9 +11,9 @@ public class CUnitTest {
         C c = new C(stub);
 
         // קוראים ל־C — לא לסטאב!
-        String result = c.process("HE");
+        String result = c.process("");
 
         // מאמתים את הפלט
-        assertEquals("HELX", result);
+        assertEquals("L", result);
     }
 }
